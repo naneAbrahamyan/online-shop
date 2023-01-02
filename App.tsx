@@ -13,7 +13,7 @@ import ProductsNavigator from './app/navigation/ProductsNavigator';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import ContextProvider from './app/context/context';
+// import LikeContextProvider from './app/context/LikeContext';
 
 const Tab = createBottomTabNavigator();
 
@@ -26,7 +26,7 @@ export default function App() {
   }, [])
   return (
   
-      <ContextProvider>
+      // <LikeContextProvider>
 
         <>   
           {!logged ? 
@@ -52,7 +52,7 @@ export default function App() {
         }
         
         </>
-      </ContextProvider>
+      // </LikeContextProvider>
   )
 }
 

@@ -4,7 +4,7 @@ import colors from '../configs/colors';
 import Screen from '../components/Screen';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import Seperator from '../components/Seperator';
-import { Context } from '../context/context';
+import { Context } from '../context/LikeContext';
 
 
 const ItemScreen = ({ route }) : ReactElement => { 

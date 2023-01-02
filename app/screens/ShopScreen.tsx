@@ -3,7 +3,7 @@ import { View, StyleSheet, ImageBackground, Text, Image, TextInput, FlatList, To
 import Screen from '../components/Screen';
 import colors from '../configs/colors';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { Context } from '../context/context';
+import { Context } from '../context/LikeContext';
 
 const filterData = [ 
     {
